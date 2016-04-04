@@ -1,0 +1,7 @@
+package com.zmj.service;
+
+import com.zmj.model.User;
+
+public class IUserService {
+	  public boolean registe(User user);
+}

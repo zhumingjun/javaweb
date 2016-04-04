@@ -1,0 +1,5 @@
+package com.zmj.service;
+
+public class IUserService {
+	  public boolean registe(User user);
+}

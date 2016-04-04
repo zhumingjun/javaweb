@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+tomcat6Server.springmvc_spring_hibernate.IEARProjectName=
+tomcat6Server.springmvc_spring_hibernate.altContextRoot=
+tomcat6Server.springmvc_spring_hibernate.contextRoot=/springmvc_spring_hibernate
+tomcat6Server.springmvc_spring_hibernate.deployIsOverProject=false
+tomcat6Server.springmvc_spring_hibernate.deploymentPath=D\:\\apache-tomcat-6.0.36\\webapps\\springmvc_spring_hibernate
+tomcat6Server.springmvc_spring_hibernate.isDeployed=true
+tomcat6Server.springmvc_spring_hibernate.isExploded=true
+tomcat6Server.springmvc_spring_hibernate.isUptoDate=true
+tomcat6Server.springmvc_spring_hibernate.noFileCopy=false
+tomcat6Server.springmvc_spring_hibernate.shouldBackup=false
+tomcat6Server.springmvc_spring_hibernate.shouldOverwrite=false
+tomcat6Server.springmvc_spring_hibernate.type=WebDeployment

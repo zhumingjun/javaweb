@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="16" version="2.0">
+<workbench progressCount="17" version="2.0">
 <workbenchAdvisor/>
-<window height="903" width="1395" x="393" y="85">
+<window height="903" width="1665" x="232" y="110">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
 </perspectiveBar>
 <coolbarLayout>
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="172" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="124" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="com.genuitec.eclipse.j2eedt.core.ejb" itemType="typeToolBarContribution" x="55" y="22"/>
 <coolItem id="com.genuitec.eclipse.uml.actions" itemType="typeToolBarContribution" x="61" y="22"/>
@@ -27,6 +27,9 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="198" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="com.genuitec.eclipse.webdesigner3.editors.jsp" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.genuitec.eclipse.springframework.springconfigeditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.jboss.tools.common.model.ui.editor.EditorPartWrapper" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.m2e.editor.MavenPomEditor" itemType="typePlaceholder" x="-1" y="-1"/>
@@ -42,51 +45,26 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
-<part id="5"/>
-<part id="6"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="User.java" partName="User.java" path="E:/javaweb/springmvc_spring_hibernate/src/main/java/com/zmj/model/User.java" title="User.java" tooltip="springmvc_spring_hibernate/src/main/java/com/zmj/model/User.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/springmvc_spring_hibernate/src/main/java/com/zmj/model/User.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="836" selectionTopPixel="186"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UserInfoController.java" partName="UserInfoController.java" path="E:/javaweb/springmvc_spring_hibernate/src/main/java/com/zmj/controller/UserInfoController.java" title="UserInfoController.java" tooltip="springmvc_spring_hibernate/src/main/java/com/zmj/controller/UserInfoController.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/springmvc_spring_hibernate/src/main/java/com/zmj/controller/UserInfoController.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="237" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UserController.java" partName="UserController.java" path="E:/javaweb/springmvc_spring_hibernate/src/main/java/com/zmj/controller/UserController.java" title="UserController.java" tooltip="springmvc_spring_hibernate/src/main/java/com/zmj/controller/UserController.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/springmvc_spring_hibernate/src/main/java/com/zmj/controller/UserController.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="350" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IUserService.java" partName="IUserService.java" path="E:/javaweb/springmvc_spring_hibernate/src/main/java/com/zmj/service/IUserService.java" title="IUserService.java" tooltip="springmvc_spring_hibernate/src/main/java/com/zmj/service/IUserService.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/springmvc_spring_hibernate/src/main/java/com/zmj/service/IUserService.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="131" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UserService.java" partName="UserService.java" path="E:/javaweb/springmvc_spring_hibernate/src/main/java/com/zmj/service/UserService.java" title="UserService.java" tooltip="springmvc_spring_hibernate/src/main/java/com/zmj/service/UserService.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/springmvc_spring_hibernate/src/main/java/com/zmj/service/UserService.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="491" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IGeneralDao.java" partName="IGeneralDao.java" path="E:/javaweb/springmvc_spring_hibernate/src/main/java/com/zmj/dao/IGeneralDao.java" title="IGeneralDao.java" tooltip="springmvc_spring_hibernate/src/main/java/com/zmj/dao/IGeneralDao.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/springmvc_spring_hibernate/src/main/java/com/zmj/dao/IGeneralDao.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="627" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GeneralDao.java" partName="GeneralDao.java" path="E:/javaweb/springmvc_spring_hibernate/src/main/java/com/zmj/dao/GeneralDao.java" title="GeneralDao.java" tooltip="springmvc_spring_hibernate/src/main/java/com/zmj/dao/GeneralDao.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/springmvc_spring_hibernate/src/main/java/com/zmj/dao/GeneralDao.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1438" selectionTopPixel="546"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UserServiceTest.java" partName="UserServiceTest.java" path="E:/javaweb/springmvc_spring_hibernate/src/test/java/com/zmj/service/UserServiceTest.java" title="UserServiceTest.java" tooltip="springmvc_spring_hibernate/src/test/java/com/zmj/service/UserServiceTest.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/springmvc_spring_hibernate/src/test/java/com/zmj/service/UserServiceTest.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="292" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="365" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
 <view id="com.genuitec.eclipse.ui.HTMLView" partName="Web Browser"/>
 <view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" partName="Snippets"/>
-<view id="com.genuitec.eclipse.ast.deploy.core.serverview" partName="Servers">
+<view id="uky.article.imageviewer.views.ImageView" partName="Image Preview">
 <viewState/>
 </view>
-<view id="uky.article.imageviewer.views.ImageView" partName="Image Preview">
+<view id="com.genuitec.eclipse.ast.deploy.core.serverview" partName="Servers">
 <viewState/>
 </view>
 <view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
@@ -96,7 +74,6 @@
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
 <category IMemento.internal.id="Warnings (1 item)"/>
-<category IMemento.internal.id="Errors"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -144,7 +121,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="com.genuitec.myeclipse.perspective.myeclipseperspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="com.genuitec.myeclipse.perspective.myeclipseperspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.genuitec.myeclipse.perspective.MyEclipsePerspectiveFactory" id="com.genuitec.myeclipse.perspective.myeclipseperspective" label="MyEclipse Java Enterprise"/>
 <alwaysOnActionSet id="com.genuitec.myeclipse.actions.deploytools"/>
@@ -268,7 +245,7 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.28933632" ratioLeft="388" ratioRight="953" relationship="2" relative="cvslocation"/>
+<info part="org.eclipse.ui.editorss" ratio="0.24332713" ratioLeft="392" ratioRight="1219" relationship="2" relative="cvslocation"/>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@3547c327" ratio="0.75" ratioLeft="600" ratioRight="200" relationship="2" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
@@ -280,12 +257,13 @@
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@7a5d50c4" ratio="0.54868627" ratioLeft="355" ratioRight="292" relationship="4" relative="org.eclipse.ui.internal.ViewStack@3547c327">
 <folder activePageID="org.eclipse.ui.views.PropertySheet" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="bottom" ratio="0.40554821" ratioLeft="307" ratioRight="450" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="bottom" ratio="0.6935271" ratioLeft="525" ratioRight="232" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
@@ -314,7 +292,7 @@
 </folder>
 </info>
 <info folder="true" part="bottomleft" ratio="0.54868627" ratioLeft="355" ratioRight="292" relationship="4" relative="topleft">
-<folder appearance="2" expanded="0">
+<folder appearance="2" expanded="2">
 <page content="uky.article.imageviewer.views.ImageView" label="LabelNotFound"/>
 <page content="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
@@ -327,133 +305,134 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/springmvc_spring_hibernate/src/main/java/com/zmj/controller/UserController.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/springmvc_spring_hibernate/src/main/java/com/zmj/dao/GeneralDao.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/springmvc_spring_hibernate/src/main/java/com/zmj/dao/IGeneralDao.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/springmvc_spring_hibernate/src/main/java/com/zmj/model/User.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/springmvc_spring_hibernate/src/main/java/com/zmj/service/IUserService.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/springmvc_spring_hibernate/src/main/java/com/zmj/service/UserService.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/springmvc_spring_hibernate/src/main/java/com/zmj/util/test.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/springmvc_spring_hibernate/src/test/java/com/zmj/service/UserServiceTest.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.m2e.editor.MavenPomEditor" path="/springmvc_spring_hibernate/pom.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/springmvc_spring_hibernate/src/main/webapp/WEB-INF/applicationContent.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/springmvc_spring_hibernate/src/main/webapp/WEB-INF/springmvc-servlet.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.springframework.springconfigeditor" path="/springmvc_spring_hibernate/src/main/webapp/WEB-INF/applicationContent.xml"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=springmvc_spring_hibernate/E:\/program\/MyEclipse\/Common\/binary\/com.sun.java.jdk.win32.x86_64_1.6.0.013\/jre\/lib\/rt.jar&lt;sun.reflect(DelegatingMethodAccessorImpl.class"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.springframework.springconfigeditor" path="/springmvc_spring_hibernate/src/main/webapp/WEB-INF/springmvc-servlet.xml"/>
 <editor factoryID="org.jboss.tools.common.core.resources.XModelObjectEditorInputFactory" id="org.jboss.tools.common.model.ui.editor.EditorPartWrapper" path="/springmvc_spring_hibernate/src/main/webapp/WEB-INF/web.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/springmvc_spring_hibernate/src/main/java/com/zmj/model/User.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.core.runtime.xml.source" path="/springmvc_spring_hibernate/src/main/webapp/WEB-INF/applicationContext.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/springmvc_spring_hibernate/src/main/webapp/WEB-INF/view/index.jsp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/springmvc_spring_hibernate/src/main/java/com/zmj/controller/UserController.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/springmvc_spring_hibernate/src/main/java/com/zmj/model/User.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/springmvc_spring_hibernate/src/main/java/com/zmj/dao/GeneralDao.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/springmvc_spring_hibernate/src/main/java/com/zmj/dao/IGeneralDao.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.springframework.springconfigeditor" path="/springmvc_spring_hibernate/src/main/webapp/WEB-INF/applicationContext.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/springmvc_spring_hibernate/src/main/java/com/zmj/service/IUserService.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/springmvc_spring_hibernate/src/main/java/com/zmj/service/UserService.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/springmvc_spring_hibernate/src/main/java/com/zmj/dao/IGeneralDao.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/springmvc_spring_hibernate/src/main/java/com/zmj/dao/GeneralDao.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/springmvc_spring_hibernate/src/test/java/com/zmj/service/UserServiceTest.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/springmvc_spring_hibernate/src/main/webapp/WEB-INF/view/admin/userInfo.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/springmvc_spring_hibernate/src/main/java/com/zmj/controller/UserInfoController.java"/>
 </editors>
-<item historyLabel="UserController.java" index="0">
+<item historyLabel="UserServiceTest.java" index="0">
+<position info="not_deleted" x="292" y="0"/>
+</item>
+<item historyLabel="applicationContent.xml" index="1">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="GeneralDao.java" index="1">
+<item historyLabel="DelegatingMethodAccessorImpl.class" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="IGeneralDao.java" index="2">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="applicationContent.xml" index="1"/>
+<item historyLabel="springmvc-servlet.xml" index="3"/>
+<item historyLabel="applicationContent.xml" index="1"/>
+<item historyLabel="web.xml" index="4"/>
+<item historyLabel="springmvc-servlet.xml" index="3"/>
+<item historyLabel="web.xml" index="4"/>
+<item historyLabel="springmvc-servlet.xml" index="3"/>
+<item historyLabel="applicationContent.xml" index="1"/>
+<item historyLabel="applicationContext.xml" index="5">
+<position info="not_deleted" x="2412" y="0"/>
 </item>
-<item historyLabel="User.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="UserServiceTest.java" index="0">
+<position info="not_deleted" x="570" y="0"/>
 </item>
-<item historyLabel="IUserService.java" index="4">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="index.jsp" index="6"/>
+<item historyLabel="UserServiceTest.java" index="0">
+<position info="not_deleted" x="570" y="0"/>
 </item>
-<item historyLabel="UserService.java" index="5">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="UserController.java" index="7">
+<position/>
 </item>
-<item historyLabel="test.java" index="6">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="User.java" index="8">
+<position info="not_deleted" x="600" y="0"/>
 </item>
-<item historyLabel="UserServiceTest.java" index="7">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="UserController.java" index="7">
+<position/>
 </item>
-<item historyLabel="springmvc_spring_hibernate/pom.xml" index="8"/>
-<item historyLabel="applicationContent.xml" index="9"/>
-<item historyLabel="springmvc-servlet.xml" index="10"/>
-<item historyLabel="applicationContent.xml" index="9"/>
-<item historyLabel="springmvc-servlet.xml" index="10"/>
-<item historyLabel="applicationContent.xml" index="9"/>
-<item historyLabel="web.xml" index="11"/>
-<item historyLabel="springmvc-servlet.xml" index="10"/>
-<item historyLabel="web.xml" index="11"/>
-<item historyLabel="springmvc-servlet.xml" index="10">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="User.java" index="8">
+<position info="not_deleted" x="600" y="0"/>
 </item>
-<item historyLabel="applicationContent.xml" index="9">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="User.java" index="12">
-<position info="not_deleted" x="836" y="0"/>
-</item>
-<item historyLabel="UserController.java" index="13">
-<position info="not_deleted" x="399" y="0"/>
-</item>
-<item historyLabel="IUserService.java" index="14">
-<position info="not_deleted" x="128" y="0"/>
-</item>
-<item historyLabel="UserController.java" index="13">
-<position info="not_deleted" x="350" y="0"/>
-</item>
-<item historyLabel="IUserService.java" index="14">
-<position info="not_deleted" x="128" y="0"/>
-</item>
-<item historyLabel="UserService.java" index="15">
-<position info="not_deleted" x="645" y="0"/>
-</item>
-<item historyLabel="IGeneralDao.java" index="16">
-<position info="not_deleted" x="627" y="0"/>
-</item>
-<item historyLabel="IGeneralDao.java" index="16">
-<position info="not_deleted" x="577" y="0"/>
-</item>
-<item historyLabel="IGeneralDao.java" index="16">
-<position info="not_deleted" x="627" y="0"/>
-</item>
-<item historyLabel="GeneralDao.java" index="17">
-<position info="not_deleted" x="277" y="0"/>
-</item>
-<item historyLabel="UserService.java" index="15">
-<position info="not_deleted" x="265" y="0"/>
-</item>
-<item historyLabel="IUserService.java" index="14">
-<position info="not_deleted" x="56" y="0"/>
-</item>
-<item historyLabel="UserService.java" index="15">
-<position info="not_deleted" x="265" y="0"/>
-</item>
-<item historyLabel="IUserService.java" index="14">
-<position info="not_deleted" x="89" y="0"/>
-</item>
-<item historyLabel="UserService.java" index="15">
-<position info="not_deleted" x="398" y="0"/>
-</item>
-<item historyLabel="IUserService.java" index="14">
-<position info="not_deleted" x="89" y="0"/>
-</item>
-<item historyLabel="UserService.java" index="15">
-<position info="not_deleted" x="398" y="0"/>
-</item>
-<item historyLabel="UserService.java" index="15">
-<position info="not_deleted" x="317" y="12"/>
-</item>
-<item historyLabel="IUserService.java" index="14">
-<position info="not_deleted" x="131" y="0"/>
-</item>
-<item historyLabel="UserService.java" index="15">
-<position info="not_deleted" x="491" y="0"/>
-</item>
-<item historyLabel="IGeneralDao.java" index="16">
-<position info="not_deleted" x="627" y="0"/>
-</item>
-<item historyLabel="GeneralDao.java" index="17">
+<item historyLabel="GeneralDao.java" index="9">
 <position info="not_deleted" x="1438" y="0"/>
 </item>
-<item active="true" historyLabel="UserServiceTest.java" index="18">
+<item historyLabel="IGeneralDao.java" index="10">
+<position info="not_deleted" x="627" y="0"/>
+</item>
+<item historyLabel="GeneralDao.java" index="9">
+<position info="not_deleted" x="458" y="0"/>
+</item>
+<item historyLabel="UserServiceTest.java" index="0">
+<position info="not_deleted" x="579" y="0"/>
+</item>
+<item historyLabel="index.jsp" index="6"/>
+<item historyLabel="UserServiceTest.java" index="0">
+<position info="not_deleted" x="579" y="0"/>
+</item>
+<item historyLabel="UserController.java" index="7">
+<position/>
+</item>
+<item historyLabel="applicationContext.xml" index="11"/>
+<item historyLabel="IUserService.java" index="12">
+<position info="not_deleted" x="131" y="0"/>
+</item>
+<item historyLabel="UserService.java" index="13">
+<position info="not_deleted" x="491" y="0"/>
+</item>
+<item historyLabel="index.jsp" index="6"/>
+<item historyLabel="applicationContext.xml" index="11"/>
+<item historyLabel="springmvc-servlet.xml" index="3"/>
+<item historyLabel="applicationContext.xml" index="11"/>
+<item historyLabel="index.jsp" index="6"/>
+<item historyLabel="GeneralDao.java" index="9">
+<position info="not_deleted" x="458" y="0"/>
+</item>
+<item historyLabel="IGeneralDao.java" index="10">
+<position info="not_deleted" x="627" y="0"/>
+</item>
+<item historyLabel="UserController.java" index="7">
+<position/>
+</item>
+<item historyLabel="IGeneralDao.java" index="10">
+<position info="not_deleted" x="627" y="0"/>
+</item>
+<item historyLabel="GeneralDao.java" index="9">
+<position info="not_deleted" x="458" y="0"/>
+</item>
+<item historyLabel="userInfo.jsp" index="14"/>
+<item historyLabel="UserController.java" index="7">
+<position info="not_deleted" x="591" y="0"/>
+</item>
+<item historyLabel="applicationContext.xml" index="11"/>
+<item historyLabel="UserController.java" index="7">
+<position info="not_deleted" x="591" y="0"/>
+</item>
+<item historyLabel="userInfo.jsp" index="14"/>
+<item historyLabel="UserInfoController.java" index="15">
 <position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="UserController.java" index="7">
+<position info="not_deleted" x="365" y="0"/>
+</item>
+<item historyLabel="UserInfoController.java" index="15">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="UserController.java" index="7">
+<position info="not_deleted" x="365" y="0"/>
+</item>
+<item historyLabel="UserInfoController.java" index="15">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="UserInfoController.java" index="15">
+<position info="not_deleted" x="193" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -475,6 +454,33 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UserController.java" tooltip="springmvc_spring_hibernate/src/main/java/com/zmj/controller/UserController.java">
+<persistable path="/springmvc_spring_hibernate/src/main/java/com/zmj/controller/UserController.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UserInfoController.java" tooltip="springmvc_spring_hibernate/src/main/java/com/zmj/controller/UserInfoController.java">
+<persistable path="/springmvc_spring_hibernate/src/main/java/com/zmj/controller/UserInfoController.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.springframework.springconfigeditor" name="applicationContext.xml" tooltip="springmvc_spring_hibernate/src/main/webapp/WEB-INF/applicationContext.xml">
+<persistable path="/springmvc_spring_hibernate/src/main/webapp/WEB-INF/applicationContext.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="userInfo.jsp" tooltip="springmvc_spring_hibernate/src/main/webapp/WEB-INF/view/admin/userInfo.jsp">
+<persistable path="/springmvc_spring_hibernate/src/main/webapp/WEB-INF/view/admin/userInfo.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="index.jsp" tooltip="springmvc_spring_hibernate/src/main/webapp/WEB-INF/view/index.jsp">
+<persistable path="/springmvc_spring_hibernate/src/main/webapp/WEB-INF/view/index.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.jboss.tools.common.model.ui.editor.EditorPartWrapper" name="web.xml" tooltip="springmvc_spring_hibernate/src/main/webapp/WEB-INF/web.xml">
+<persistable path="/springmvc_spring_hibernate/src/main/webapp/WEB-INF/web.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.springframework.springconfigeditor" name="springmvc-servlet.xml" tooltip="springmvc_spring_hibernate/src/main/webapp/WEB-INF/springmvc-servlet.xml">
+<persistable path="/springmvc_spring_hibernate/src/main/webapp/WEB-INF/springmvc-servlet.xml"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="DelegatingMethodAccessorImpl.class" tooltip="sun.reflect.DelegatingMethodAccessorImpl">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=springmvc_spring_hibernate/E:\/program\/MyEclipse\/Common\/binary\/com.sun.java.jdk.win32.x86_64_1.6.0.013\/jre\/lib\/rt.jar&lt;sun.reflect(DelegatingMethodAccessorImpl.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.springframework.springconfigeditor" name="applicationContent.xml" tooltip="springmvc_spring_hibernate/src/main/webapp/WEB-INF/applicationContent.xml">
+<persistable path="/springmvc_spring_hibernate/src/main/webapp/WEB-INF/applicationContent.xml"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UserServiceTest.java" tooltip="springmvc_spring_hibernate/src/test/java/com/zmj/service/UserServiceTest.java">
 <persistable path="/springmvc_spring_hibernate/src/test/java/com/zmj/service/UserServiceTest.java"/>
 </file>
@@ -490,26 +496,8 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IUserService.java" tooltip="springmvc_spring_hibernate/src/main/java/com/zmj/service/IUserService.java">
 <persistable path="/springmvc_spring_hibernate/src/main/java/com/zmj/service/IUserService.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UserController.java" tooltip="springmvc_spring_hibernate/src/main/java/com/zmj/controller/UserController.java">
-<persistable path="/springmvc_spring_hibernate/src/main/java/com/zmj/controller/UserController.java"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="User.java" tooltip="springmvc_spring_hibernate/src/main/java/com/zmj/model/User.java">
 <persistable path="/springmvc_spring_hibernate/src/main/java/com/zmj/model/User.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="springmvc-servlet.xml" tooltip="springmvc_spring_hibernate/src/main/webapp/WEB-INF/springmvc-servlet.xml">
-<persistable path="/springmvc_spring_hibernate/src/main/webapp/WEB-INF/springmvc-servlet.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.jboss.tools.common.model.ui.editor.EditorPartWrapper" name="web.xml" tooltip="springmvc_spring_hibernate/src/main/webapp/WEB-INF/web.xml">
-<persistable path="/springmvc_spring_hibernate/src/main/webapp/WEB-INF/web.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="applicationContent.xml" tooltip="springmvc_spring_hibernate/src/main/webapp/WEB-INF/applicationContent.xml">
-<persistable path="/springmvc_spring_hibernate/src/main/webapp/WEB-INF/applicationContent.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.m2e.editor.MavenPomEditor" name="pom.xml" tooltip="springmvc_spring_hibernate/pom.xml">
-<persistable path="/springmvc_spring_hibernate/pom.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="test.java" tooltip="springmvc_spring_hibernate/src/main/java/com/zmj/util/test.java">
-<persistable path="/springmvc_spring_hibernate/src/main/java/com/zmj/util/test.java"/>
 </file>
 </mruList>
 </workbench>

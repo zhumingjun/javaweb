@@ -23,6 +23,6 @@ public class UserController {
     public String registe() {  
         User user = new User(0, "小马云", "999");  
         userService.registe(user);  
-        return "index";  
+        return "admin/userInfo";  
     }  
 }  

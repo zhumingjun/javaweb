@@ -1,0 +1,5 @@
+package com.zmj.model;
+
+public class UserInfo {
+
+}

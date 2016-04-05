@@ -1,0 +1,13 @@
+package com.zmj.service;
+
+import com.zmj.model.UserInfo;
+
+public class UserInfoService implements IUserInfoService {
+
+	@Override
+	public boolean userRegiste(UserInfo userInfo) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

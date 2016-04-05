@@ -1,0 +1,5 @@
+package com.zmj.dao;
+
+public interface IUserInfoDao {
+
+}

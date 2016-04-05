@@ -1,0 +1,13 @@
+package com.zmj.model;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="userinfo")
+public class UserInfo {
+	private int id;
+	private String username;
+	private String 
+
+}

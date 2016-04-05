@@ -1,0 +1,15 @@
+package com.zmj.controller;
+
+import javax.annotation.Resource;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.zmj.service.IUserService;
+
+@Controller
+@RequestMapping("/admin/userInfo")
+public class UserInfoController {
+	 @Resource private IUserService userService; 
+}

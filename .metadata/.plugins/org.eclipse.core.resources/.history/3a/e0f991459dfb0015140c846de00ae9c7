@@ -17,8 +17,7 @@ public class UserInfoController {
 	 @RequestMapping("/userRegiste")
 	 public String userRegiste() {  
 	        UserInfo user = new UserInfo(4, "zmj", 20, "男", "11", "22", "33");  
-	        userInfoService.userRegiste(user); 
-	        System.out.println();
+	        userInfoService.userRegiste(user);  
 	        return "admin/userInfo";  
 	    }  
 }

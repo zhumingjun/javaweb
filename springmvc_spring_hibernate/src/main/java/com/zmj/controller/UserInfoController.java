@@ -1,8 +1,11 @@
 package com.zmj.controller;
 
+
+
 import javax.annotation.Resource;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+
 import com.zmj.model.UserInfo;
 import com.zmj.service.IUserInfoService;
 
@@ -13,7 +16,7 @@ public class UserInfoController {
 	 @Resource private IUserInfoService userInfoService; 
 	 @RequestMapping("/userRegiste")
 	 public String userRegiste() {  
-	        UserInfo user = new UserInfo(0, "zmj", 20, "男", "11", "22", "33");  
+	        UserInfo user = new UserInfo(4, "zmj", 20, "男", "11", "22", "33");  
 	        userInfoService.userRegiste(user);  
 	        return "admin/userInfo";  
 	    }  

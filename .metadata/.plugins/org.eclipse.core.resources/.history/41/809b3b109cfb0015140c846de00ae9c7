@@ -1,0 +1,24 @@
+package com.zmj.controller;
+
+
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+import com.zmj.model.UserInfo;
+import com.zmj.service.IUserInfoService;
+
+
+@Controller
+@RequestMapping("/admin/userInfo")
+public class UserInfoController {
+	 @Autowired private IUserInfoService userInfoService; 
+	 @RequestMapping(value="/userRegiste", method=RequestMethod.GET)
+	 public String userRegiste() {  
+	        UserInfo user = new UserInfo(2, "zmj", 20, "男", "11", "22", "33");  
+	        userInfoService.userRegiste(user);  
+	        return "admin/userInfo";  
+	    }  
+}

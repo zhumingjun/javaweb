@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<%@ page language="java" contentType="text/html;charset=UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
+<html>
+  <head>
+    <title><fmt:message key="用户信息" /></title>
+  </head>
+  <body>
+	    <div id="listContent">
+	        <!-- 这个table id 固定为 :DisplayTagTable-->
+	        <display:table id="DisplayTagTable" name="resultList" class="its" requestURI="${pageContext.request.contextPath}/easy/esEvaluation/select" sort="external">
+				<display:column  media="html" title="<input type='checkbox' onclick='checkReverseObj(\"checkId\")'/>" 
+		       		style="width:1%">
+		       		<input type="checkbox" value="${DisplayTagTable.id}" name="checkId"/>
+		      	</display:column>
+				<display:column title="评价用户" maxLength="30" >${DisplayTagTable.evalUser.name}</display:column>         
+				<display:column property="starLevel" titleKey="esEvaluation.starLevel" maxLength="30" /> 
+				<display:column  title="评价时间"   style="text-align:left;width:200px;"  >
+	          	<fmt:formatDate  value="${DisplayTagTable.valtime}"   type="both" pattern="yyyy.MM.dd HH:mm:ss" />
+	          	</display:column>
+				<display:column property="content" titleKey="esEvaluation.content" maxLength="30" />  
+				<display:column title="置顶状态"  maxLength="30" > 
+				</display:column> 
+			    <display:column title="评论状态"  maxLength="30" > 
+				</display:column> 
+				<display:column titleKey='button.operation'>
+				<input  style="width:60px" type="button" class="btn_list_view" id="btn_view_${DisplayTagTable.id}" name="btn_view" value="查看" 
+		            	onclick="openDialogCommon('${pageContext.request.contextPath}/easy/esEvaluation/view/${DisplayTagTable.id}',true,900,750)" />
+		        <c:if test="${DisplayTagTable.valHandleState=='1'  }">
+		        <input   type="button" class="btn_list_update" id="btn_update_${DisplayTagTable.id}" name="btn_update" value="${DisplayTagTable.top==1?'取消置顶':'置顶' }" 
+		            	onclick="toTop('${DisplayTagTable.top}','${DisplayTagTable.id}')" />	
+		        </c:if>
+				<c:if test="${DisplayTagTable.valHandleState=='0'  }">
+				<input  style="width:60px" type="button" class="btn_list_view" id="btn_view_${DisplayTagTable.id}" name="btn_view" value="处理" 
+		            	onclick="openDialogCommon('${pageContext.request.contextPath}/easy/esEvaluation/viewCheck/${DisplayTagTable.id}',true,900,750)" />
+	          	</c:if>
+	          	</display:column>
+	          		
+	          	<display:footer>
+	          		<tr>
+	            		<td colspan="14"><cus:paged/></td>
+	            	</tr>
+	          	</display:footer>
+	          		
+	          		
+	        </display:table>
+	    </div>
+    
+  </body>    
+</html>

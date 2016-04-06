@@ -1,0 +1,179 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<%@ page language="java" contentType="text/html;charset=UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
+<html>
+  <head>
+    <title><fmt:message key="esEvaluation.list.jsp.title" /></title>
+  </head>
+  <body>
+	<form action="${pageContext.request.contextPath}/easy/esEvaluation/select" method="post">
+		<div id="toolbarObj"></div>
+		<div class="errorTip"></div>
+	    
+	    <div class="searchbody">
+			<dl>
+			<table>
+			<tr>
+			<td width='70px' nowrap="nowrap">机构名称：</td>
+			<td width='200px' nowrap="nowrap">
+			<cus:SearchFilterTag name="esInstitution.name" op="lrlike" placeholder="机构名称" type="string"  onchange="query()" value="${institurionName}"/>
+			</td>
+			<td class="lesta-35">评论状态：</td>
+			<td class="lestb">
+			<cus:SearchFilterTag name="valHandleState" id="valHandleStateId" codeType="<%=EasyConsts.HANDLESTATE_TYPE%>"  defaultText="全部" onchange="query()"/>
+			</td>
+			</tr>
+			<tr>
+			<td class="lesta-35">置顶状态：</td>
+			<td width='200px' nowrap="nowrap">
+			<cus:SearchFilterTag name="top" id="topStateId" codeType="<%=EasyConsts.TOP_TYPE%>"  defaultText="全部" onchange="query()"/>
+			</td>
+			
+			<td width='70px' nowrap="nowrap">创建日期：</td>
+			<td width='300px' nowrap="nowrap">
+				<input type="text" id="begWdateId" name="filter_valtime_ge_date" class="Wdate" readonly="readonly" placeholder="搜索起始日期" value="<fmt:formatDate value="${begTime }" pattern="yyyy-MM-dd"/>" onfocus="WdatePicker({maxDate:'#F{$dp.$D(\'endWdateId\',{d:0})}'})" />
+				--<input type="text" id="endWdateId" name="filter_valtime_le_date" class="Wdate" readonly="readonly" placeholder="搜索结束日期" value="<fmt:formatDate value="${endTime }" pattern="yyyy-MM-dd"/>" onfocus="WdatePicker({minDate:'#F{$dp.$D(\'begWdateId\',{d:0})}'})" />
+			</td>
+			
+			
+			</tr>
+			</table>
+			</dl>
+	    </div>
+	    
+	    <div id="listContent">
+	        <!-- 这个table id 固定为 :DisplayTagTable-->
+	        <display:table id="DisplayTagTable" name="resultList" class="its" requestURI="${pageContext.request.contextPath}/easy/esEvaluation/select" sort="external">
+				<display:column  media="html" title="<input type='checkbox' onclick='checkReverseObj(\"checkId\")'/>" 
+		       		style="width:1%">
+		       		<input type="checkbox" value="${DisplayTagTable.id}" name="checkId"/>
+		      	</display:column>
+				<display:column title="评价用户" maxLength="30" >${DisplayTagTable.evalUser.name}</display:column>         
+				<display:column property="starLevel" titleKey="esEvaluation.starLevel" maxLength="30" /> 
+				<display:column  title="评价时间"   style="text-align:left;width:200px;"  >
+	          	<fmt:formatDate  value="${DisplayTagTable.valtime}"   type="both" pattern="yyyy.MM.dd HH:mm:ss" />
+	          	</display:column>
+				<display:column property="content" titleKey="esEvaluation.content" maxLength="30" />  
+				<display:column title="置顶状态"  maxLength="30" > 
+					${cusfun:getTextByValueAndType(DisplayTagTable.top,"8202")}
+				</display:column> 
+			    <display:column title="评论状态"  maxLength="30" > 
+					${cusfun:getTextByValueAndType(DisplayTagTable.valHandleState,"8207")}
+				</display:column> 
+				<display:column titleKey='button.operation'>
+				<input  style="width:60px" type="button" class="btn_list_view" id="btn_view_${DisplayTagTable.id}" name="btn_view" value="查看" 
+		            	onclick="openDialogCommon('${pageContext.request.contextPath}/easy/esEvaluation/view/${DisplayTagTable.id}',true,900,750)" />
+		        <c:if test="${DisplayTagTable.valHandleState=='1'  }">
+		        <input   type="button" class="btn_list_update" id="btn_update_${DisplayTagTable.id}" name="btn_update" value="${DisplayTagTable.top==1?'取消置顶':'置顶' }" 
+		            	onclick="toTop('${DisplayTagTable.top}','${DisplayTagTable.id}')" />	
+		        </c:if>
+				<c:if test="${DisplayTagTable.valHandleState=='0'  }">
+				<input  style="width:60px" type="button" class="btn_list_view" id="btn_view_${DisplayTagTable.id}" name="btn_view" value="处理" 
+		            	onclick="openDialogCommon('${pageContext.request.contextPath}/easy/esEvaluation/viewCheck/${DisplayTagTable.id}',true,900,750)" />
+	          	</c:if>
+	          	</display:column>
+	          		
+	          	<display:footer>
+	          		<tr>
+	            		<td colspan="14"><cus:paged/></td>
+	            	</tr>
+	          	</display:footer>
+	          		
+	          		
+	        </display:table>
+	    </div>
+    </form>
+    
+    <div id="tips"></div>
+   	
+	<script type="text/javascript">
+		// 页面装载后的操作
+		$().ready(function() {
+			//创建工具栏
+			var toolbar = new dhtmlXToolbarObject("toolbarObj");
+			toolbar.setIconsPath("${pageContext.request.contextPath}/resources/css/dhtmlx/imgs/dhxtoolbar_dhx_skyblue/");
+			toolbar.setSkin('dhx_web');//设置皮肤
+			toolbar.setAlign('right');//设置居右
+			
+			//定义按钮
+			toolbar.addButton("query", 0, "<fmt:message key="button.query" />", "query.gif");
+		//	toolbar.addButton("add", 1, "<fmt:message key="button.add" />", "add.gif");
+			//toolbar.addButton("edit", 2, "<fmt:message key="button.update" />", "edit.gif");
+			//toolbar.addButton("view", 3, "<fmt:message key="button.view" />", "view.gif");
+			toolbar.addButton("delete", 4, "<fmt:message key="button.delete" />", "delete.gif");
+			
+			//定义事件
+			toolbar.attachEvent("onClick", function(id) {//添加工具栏按钮事件
+			var checkId = getCheckedValue('checkId');
+			if(id=="query"){
+				toolbar.disableItem('query');
+				document.forms[0].submit();
+			}else if(id=="add"){
+	      		openDialogCommon('${pageContext.request.contextPath}/easy/esEvaluation/add',false,500,250);
+		    }else{
+				if(checkId==""){
+					alert("请至少选中一条数据进行操作!");
+					return;
+				}
+			    if(id=="delete"){
+			    	confirmDelete('${pageContext.request.contextPath}/easy/esEvaluation/delete/'+checkId);
+			    }
+		    }
+		  });
+		});
+		
+				//根据选择条件查找，当下拉框选择一个时，自动查找
+		function query(){
+			document.forms[0].submit();
+		}
+		
+		//置顶功能
+		function toTop(top,id){
+			//根据top判断当前为应弹出什么提示框
+			var msg=top==1?'是否取消置顶？':'是否置顶';
+			confirm_dialog(msg,'${pageContext.request.contextPath}/easy/esEvaluation/toTop/'+id);
+		}
+		function getInstitution()
+		{
+				var timer;
+				art.dialog.open('${pageContext.request.contextPath}/easy/show/institution', {
+					lock: true,
+					fixed: true,
+					width: 900,
+					height: 550,
+					title: '机构显示',
+					opacity: 0.3,
+					init: function(){
+						//var iframe = this.iframe.contentWindow;//弹出的iframe页面
+						//if(iframe.document && !isNullString(iframe.document.title)){
+						//	this.title(iframe.document.title);
+						//}
+					},
+					ok: function(iframe){
+						// 弹出子页面的iframe对象
+		   				var iframe = this.iframe.contentWindow;
+		   				// 调用子页面的doOk方法
+		   				if(iframe.doOk){
+		   					var flag=iframe.doOk();
+		   					var institution =art.dialog.data("institution");
+		   					$("#institutionid").val(institution.split("|")[0]);
+		   					$("#institutionname").val(institution.split("|")[1]);
+		   					return flag;
+		   				}
+					},
+					close: function () {
+				    	clearInterval(timer);
+				    }
+				});
+				
+				
+		}
+		function clearIns(){
+			$("#institutionid").val('');
+			$("#institutionname").val('');
+		}
+	</script>
+  </body>    
+</html>

@@ -1,0 +1,31 @@
+package com.zmj.controller;
+
+
+
+import java.util.List;
+
+import javax.annotation.Resource;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.zmj.model.UserInfo;
+import com.zmj.service.IUserInfoService;
+
+
+@Controller
+@RequestMapping("/admin/userInfo")
+public class UserInfoController {
+	 @Resource private IUserInfoService userInfoService; 
+	 @RequestMapping("/userRegiste")
+	 public String userRegiste() {  
+//	        UserInfo user = new UserInfo(5, "zmj", 20, "男", "11", "22", "33");  
+//	        userInfoService.userRegiste(user); 
+	        return "admin/userInfo";  
+	    }  
+	 @RequestMapping("/userSave")
+	 public String userSave(){
+		 List<UserInfo> userList=userInfoService.doGetUserInfoList();
+		 System.out.println(userList.size());
+		 return "OK";
+	 }
+}

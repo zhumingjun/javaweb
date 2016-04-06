@@ -18,6 +18,9 @@ public class UserInfo {
 	private String phone;
 	private String address;
 	
+	public UserInfo() {
+		super();
+	}
 	public UserInfo(int id, String username, int age, String sex, String email,
 			String phone, String address) {
 		super();

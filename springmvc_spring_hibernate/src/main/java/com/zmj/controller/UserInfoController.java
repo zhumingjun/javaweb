@@ -2,8 +2,13 @@ package com.zmj.controller;
 
 
 
+import java.util.List;
+
 import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
+
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.zmj.model.UserInfo;
@@ -16,9 +21,14 @@ public class UserInfoController {
 	 @Resource private IUserInfoService userInfoService; 
 	 @RequestMapping("/userRegiste")
 	 public String userRegiste() {  
-	        UserInfo user = new UserInfo(4, "zmj", 20, "男", "11", "22", "33");  
-	        userInfoService.userRegiste(user); 
-	        System.out.println();
+//	        UserInfo user = new UserInfo(5, "zmj", 20, "男", "11", "22", "33");  
+//	        userInfoService.userRegiste(user); 
 	        return "admin/userInfo";  
 	    }  
+	 @RequestMapping("/userSave")
+	 public String doSelect(Model model){
+		 List<UserInfo> userList=userInfoService.doGetUserInfoList();
+		 model.addAttribute("userList", userList);
+		 return "/admin/userInfo";
+	 }
 }

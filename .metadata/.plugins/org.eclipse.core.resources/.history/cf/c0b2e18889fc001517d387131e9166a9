@@ -1,0 +1,18 @@
+<html>
+<head>
+
+</head>
+<body>
+<table>
+	<caption>用户信息表</caption>
+	<thead>
+		<tr>姓名</tr>
+		<tr>年龄</tr>
+		<tr>phone</tr>
+		<tr>email</tr>
+		<tr>address</tr>
+	</thead>
+	
+</table>
+</body>
+</html>

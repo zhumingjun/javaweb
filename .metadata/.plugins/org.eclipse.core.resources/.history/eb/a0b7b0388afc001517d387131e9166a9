@@ -1,0 +1,29 @@
+<html>
+<head>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+</head>
+<body>
+<table>
+	<caption>用户信息表</caption>
+	<thead>
+		<tr>
+			<th>姓名</th>
+			<th>年龄</th>
+			<th>phone</th>
+			<th>email</th>
+			<th>address</th>
+		</tr>
+	</thead>
+	<tbody>
+	<c:
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+</body>
+</html>

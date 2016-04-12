@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="72" version="2.0">
+<workbench progressCount="73" version="2.0">
 <workbenchAdvisor/>
-<window height="907" width="1630" x="140" y="173">
+<window height="907" width="1630" x="2" y="94">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -52,22 +52,21 @@
 </folder>
 </info>
 </editorArea>
+<editor activePart="true" focus="true" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="register.jsp" partName="register.jsp" path="E:/javaweb/springmvc_spring_hibernate/src/main/webapp/WEB-INF/view/front/register.jsp" title="register.jsp" tooltip="springmvc_spring_hibernate/src/main/webapp/WEB-INF/view/front/register.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/springmvc_spring_hibernate/src/main/webapp/WEB-INF/view/front/register.jsp"/>
+</editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UserInfoController.java" partName="UserInfoController.java" path="E:/javaweb/springmvc_spring_hibernate/src/main/java/com/zmj/controller/UserInfoController.java" title="UserInfoController.java" tooltip="springmvc_spring_hibernate/src/main/java/com/zmj/controller/UserInfoController.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/springmvc_spring_hibernate/src/main/java/com/zmj/controller/UserInfoController.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="667" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="423" selectionTopPixel="0"/>
+</editor>
+<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="login.jsp" partName="login.jsp" path="E:/javaweb/springmvc_spring_hibernate/src/main/webapp/WEB-INF/view/front/login.jsp" title="login.jsp" tooltip="springmvc_spring_hibernate/src/main/webapp/WEB-INF/view/front/login.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/springmvc_spring_hibernate/src/main/webapp/WEB-INF/view/front/login.jsp"/>
 </editor>
 <editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="userInfo.jsp" partName="userInfo.jsp" path="E:/javaweb/springmvc_spring_hibernate/src/main/webapp/WEB-INF/view/admin/userInfo.jsp" title="userInfo.jsp" tooltip="springmvc_spring_hibernate/src/main/webapp/WEB-INF/view/admin/userInfo.jsp" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/springmvc_spring_hibernate/src/main/webapp/WEB-INF/view/admin/userInfo.jsp"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UserInfo.java" partName="UserInfo.java" path="E:/javaweb/springmvc_spring_hibernate/src/main/java/com/zmj/model/UserInfo.java" title="UserInfo.java" tooltip="springmvc_spring_hibernate/src/main/java/com/zmj/model/UserInfo.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/springmvc_spring_hibernate/src/main/java/com/zmj/model/UserInfo.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="463" selectionTopPixel="60"/>
-</editor>
-<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="classEdit.jsp" partName="classEdit.jsp" path="E:/CSystem/CSystem/websrc/main/webapp/WEB-INF/views/adminView/classinfo/classEdit.jsp" title="classEdit.jsp" tooltip="CSystem/websrc/main/webapp/WEB-INF/views/adminView/classinfo/classEdit.jsp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CSystem/websrc/main/webapp/WEB-INF/views/adminView/classinfo/classEdit.jsp"/>
-</editor>
-<editor activePart="true" focus="true" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="login.jsp" partName="login.jsp" path="E:/javaweb/springmvc_spring_hibernate/src/main/webapp/WEB-INF/view/front/login.jsp" title="login.jsp" tooltip="springmvc_spring_hibernate/src/main/webapp/WEB-INF/view/front/login.jsp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/springmvc_spring_hibernate/src/main/webapp/WEB-INF/view/front/login.jsp"/>
+<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="classAdd.jsp" partName="classAdd.jsp" path="E:/CSystem/CSystem/websrc/main/webapp/WEB-INF/views/adminView/classinfo/classAdd.jsp" title="classAdd.jsp" tooltip="CSystem/websrc/main/webapp/WEB-INF/views/adminView/classinfo/classAdd.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CSystem/websrc/main/webapp/WEB-INF/views/adminView/classinfo/classAdd.jsp"/>
 </editor>
 </editors>
 <views>
@@ -98,7 +97,7 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Errors"/>
+<category IMemento.internal.id="Warnings (100 of 319 items)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -259,7 +258,7 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.28259513" ratioLeft="453" ratioRight="1150" relationship="2" relative="cvslocation"/>
+<info part="org.eclipse.ui.editorss" ratio="0.21334997" ratioLeft="342" ratioRight="1261" relationship="2" relative="cvslocation"/>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@3547c327" ratio="0.75" ratioLeft="600" ratioRight="200" relationship="2" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
@@ -284,7 +283,7 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@68b34820" ratio="0.58567774" ratioLeft="458" ratioRight="324" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@68b34820" ratio="0.6560102" ratioLeft="513" ratioRight="269" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
@@ -468,7 +467,6 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/springmvc_spring_hibernate/src/main/java/com/zmj/controller/UserInfoController.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/CSystem/src/com/cb/csystem/controller/LoginController.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/springmvc_spring_hibernate/src/main/webapp/WEB-INF/view/admin/userInfo.jsp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/CSystem/websrc/main/webapp/WEB-INF/views/adminView/classinfo/classList.jsp"/>
@@ -481,103 +479,95 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/springmvc_spring_hibernate/src/main/java/com/zmj/controller/UserInfoController.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/CSystem/websrc/main/webapp/WEB-INF/views/adminView/classinfo/classEdit.jsp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/springmvc_spring_hibernate/src/main/webapp/WEB-INF/view/front/login.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/springmvc_spring_hibernate/src/main/webapp/WEB-INF/view/admin/userInfo.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/springmvc_spring_hibernate/src/main/webapp/WEB-INF/view/admin/userInfo.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/springmvc_spring_hibernate/src/main/java/com/zmj/controller/UserInfoController.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/springmvc_spring_hibernate/src/main/webapp/WEB-INF/view/front/register.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/springmvc_spring_hibernate/src/main/java/com/zmj/controller/UserInfoController.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/springmvc_spring_hibernate/src/main/webapp/WEB-INF/view/front/login.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/springmvc_spring_hibernate/src/main/webapp/WEB-INF/view/admin/userInfo.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/CSystem/websrc/main/webapp/WEB-INF/views/adminView/classinfo/classAdd.jsp"/>
 </editors>
-<item historyLabel="LoginController.java" index="1">
-<position info="not_deleted" x="3619" y="12"/>
-</item>
-<item historyLabel="LoginController.java" index="1">
-<position info="not_deleted" x="2148" y="0"/>
-</item>
-<item historyLabel="LoginController.java" index="1">
+<item historyLabel="classList.jsp" index="2"/>
+<item historyLabel="userInfo.jsp" index="1"/>
+<item historyLabel="classList.jsp" index="2"/>
+<item historyLabel="userInfo.jsp" index="1"/>
+<item historyLabel="classList.jsp" index="2"/>
+<item historyLabel="userInfo.jsp" index="1"/>
+<item historyLabel="LoginController.java" index="0">
 <position info="not_deleted" x="1222" y="38"/>
 </item>
-<item historyLabel="UserInfoController.java" index="0">
-<position info="not_deleted" x="933" y="0"/>
-</item>
-<item historyLabel="LoginController.java" index="1">
-<position info="not_deleted" x="1222" y="38"/>
-</item>
-<item historyLabel="UserInfoController.java" index="0">
-<position info="not_deleted" x="933" y="0"/>
-</item>
-<item historyLabel="UserInfoController.java" index="0">
-<position info="not_deleted" x="932" y="0"/>
-</item>
-<item historyLabel="UserInfoController.java" index="0">
-<position info="not_deleted" x="945" y="0"/>
-</item>
-<item historyLabel="LoginController.java" index="1">
-<position info="not_deleted" x="1222" y="38"/>
-</item>
-<item historyLabel="UserInfoController.java" index="0">
+<item historyLabel="classList.jsp" index="2"/>
+<item historyLabel="UserInfoController.java" index="3">
 <position info="not_deleted" x="975" y="0"/>
 </item>
-<item historyLabel="userInfo.jsp" index="2"/>
-<item historyLabel="classList.jsp" index="3"/>
-<item historyLabel="userInfo.jsp" index="2"/>
-<item historyLabel="classList.jsp" index="3"/>
-<item historyLabel="userInfo.jsp" index="2"/>
-<item historyLabel="UserInfoController.java" index="0">
-<position info="not_deleted" x="975" y="0"/>
-</item>
-<item historyLabel="classList.jsp" index="3"/>
-<item historyLabel="userInfo.jsp" index="2"/>
-<item historyLabel="classList.jsp" index="3"/>
-<item historyLabel="userInfo.jsp" index="2"/>
-<item historyLabel="classList.jsp" index="3"/>
-<item historyLabel="userInfo.jsp" index="2"/>
-<item historyLabel="LoginController.java" index="1">
-<position info="not_deleted" x="1222" y="38"/>
-</item>
-<item historyLabel="classList.jsp" index="3"/>
-<item historyLabel="UserInfoController.java" index="4">
-<position info="not_deleted" x="975" y="0"/>
-</item>
-<item historyLabel="userInfo.jsp" index="5">
+<item historyLabel="userInfo.jsp" index="4">
 <position info="not_deleted" x="979" y="0"/>
 </item>
-<item historyLabel="userInfo.jsp" index="6">
+<item historyLabel="userInfo.jsp" index="5">
 <position info="not_deleted" x="641" y="0"/>
 </item>
-<item historyLabel="userInfo.jsp" index="6">
+<item historyLabel="userInfo.jsp" index="5">
 <position info="not_deleted" x="641" y="0"/>
 </item>
-<item historyLabel="classAdd.jsp" index="7"/>
-<item historyLabel="userInfo.jsp" index="5"/>
-<item historyLabel="UserInfoController.java" index="4">
+<item historyLabel="classAdd.jsp" index="6"/>
+<item historyLabel="userInfo.jsp" index="4"/>
+<item historyLabel="UserInfoController.java" index="3">
 <position info="not_deleted" x="975" y="0"/>
 </item>
-<item historyLabel="userInfo.jsp" index="5"/>
-<item historyLabel="classAdd.jsp" index="8"/>
-<item historyLabel="userInfo.jsp" index="5"/>
-<item historyLabel="UserInfo.java" index="9">
+<item historyLabel="userInfo.jsp" index="4"/>
+<item historyLabel="classAdd.jsp" index="7"/>
+<item historyLabel="userInfo.jsp" index="4"/>
+<item historyLabel="UserInfo.java" index="8">
 <position info="not_deleted" x="463" y="0"/>
 </item>
-<item historyLabel="userInfo.jsp" index="5"/>
-<item historyLabel="UserInfoController.java" index="10">
+<item historyLabel="userInfo.jsp" index="4"/>
+<item historyLabel="UserInfoController.java" index="9">
 <position info="not_deleted" x="924" y="8"/>
 </item>
-<item historyLabel="userInfo.jsp" index="5"/>
-<item historyLabel="classEdit.jsp" index="11"/>
-<item historyLabel="userInfo.jsp" index="5"/>
-<item historyLabel="classEdit.jsp" index="11"/>
-<item historyLabel="userInfo.jsp" index="5">
+<item historyLabel="userInfo.jsp" index="4"/>
+<item historyLabel="classEdit.jsp" index="10"/>
+<item historyLabel="userInfo.jsp" index="4"/>
+<item historyLabel="classEdit.jsp" index="10"/>
+<item historyLabel="userInfo.jsp" index="4">
 <position info="not_deleted" x="656" y="9"/>
 </item>
-<item historyLabel="classEdit.jsp" index="11"/>
-<item historyLabel="userInfo.jsp" index="5"/>
-<item historyLabel="UserInfoController.java" index="10">
+<item historyLabel="classEdit.jsp" index="10"/>
+<item historyLabel="userInfo.jsp" index="4"/>
+<item historyLabel="UserInfoController.java" index="9">
 <position info="not_deleted" x="667" y="0"/>
 </item>
-<item historyLabel="userInfo.jsp" index="5"/>
-<item historyLabel="UserInfo.java" index="9">
+<item historyLabel="userInfo.jsp" index="4"/>
+<item historyLabel="UserInfo.java" index="8">
 <position info="not_deleted" x="463" y="0"/>
 </item>
-<item historyLabel="login.jsp" index="12"/>
-<item historyLabel="UserInfo.java" index="9">
+<item historyLabel="login.jsp" index="11"/>
+<item historyLabel="UserInfo.java" index="8">
 <position info="not_deleted" x="463" y="0"/>
 </item>
-<item active="true" historyLabel="login.jsp" index="12"/>
+<item historyLabel="login.jsp" index="11"/>
+<item historyLabel="userInfo.jsp" index="12"/>
+<item historyLabel="login.jsp" index="11"/>
+<item historyLabel="userInfo.jsp" index="13"/>
+<item historyLabel="UserInfoController.java" index="14">
+<position info="not_deleted" x="667" y="0"/>
+</item>
+<item historyLabel="userInfo.jsp" index="13"/>
+<item historyLabel="UserInfoController.java" index="14">
+<position info="not_deleted" x="667" y="0"/>
+</item>
+<item historyLabel="login.jsp" index="11"/>
+<item historyLabel="register.jsp" index="15"/>
+<item historyLabel="UserInfoController.java" index="16">
+<position info="not_deleted" x="423" y="0"/>
+</item>
+<item historyLabel="register.jsp" index="15"/>
+<item historyLabel="login.jsp" index="17"/>
+<item historyLabel="userInfo.jsp" index="18"/>
+<item historyLabel="classAdd.jsp" index="19"/>
+<item historyLabel="register.jsp" index="15"/>
+<item historyLabel="classAdd.jsp" index="19"/>
+<item active="true" historyLabel="register.jsp" index="15"/>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
@@ -595,8 +585,20 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="classAdd.jsp" tooltip="CSystem/websrc/main/webapp/WEB-INF/views/adminView/classinfo/classAdd.jsp">
+<persistable path="/CSystem/websrc/main/webapp/WEB-INF/views/adminView/classinfo/classAdd.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="userInfo.jsp" tooltip="springmvc_spring_hibernate/src/main/webapp/WEB-INF/view/admin/userInfo.jsp">
+<persistable path="/springmvc_spring_hibernate/src/main/webapp/WEB-INF/view/admin/userInfo.jsp"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="login.jsp" tooltip="springmvc_spring_hibernate/src/main/webapp/WEB-INF/view/front/login.jsp">
 <persistable path="/springmvc_spring_hibernate/src/main/webapp/WEB-INF/view/front/login.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UserInfoController.java" tooltip="springmvc_spring_hibernate/src/main/java/com/zmj/controller/UserInfoController.java">
+<persistable path="/springmvc_spring_hibernate/src/main/java/com/zmj/controller/UserInfoController.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="register.jsp" tooltip="springmvc_spring_hibernate/src/main/webapp/WEB-INF/view/front/register.jsp">
+<persistable path="/springmvc_spring_hibernate/src/main/webapp/WEB-INF/view/front/register.jsp"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="classEdit.jsp" tooltip="CSystem/websrc/main/webapp/WEB-INF/views/adminView/classinfo/classEdit.jsp">
 <persistable path="/CSystem/websrc/main/webapp/WEB-INF/views/adminView/classinfo/classEdit.jsp"/>
@@ -604,14 +606,8 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UserInfo.java" tooltip="springmvc_spring_hibernate/src/main/java/com/zmj/model/UserInfo.java">
 <persistable path="/springmvc_spring_hibernate/src/main/java/com/zmj/model/UserInfo.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="classAdd.jsp" tooltip="CSystem/websrc/main/webapp/WEB-INF/views/adminView/classinfo/classAdd.jsp">
-<persistable path="/CSystem/websrc/main/webapp/WEB-INF/views/adminView/classinfo/classAdd.jsp"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="classList.jsp" tooltip="CSystem/websrc/main/webapp/WEB-INF/views/adminView/classinfo/classList.jsp">
 <persistable path="/CSystem/websrc/main/webapp/WEB-INF/views/adminView/classinfo/classList.jsp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="userInfo.jsp" tooltip="springmvc_spring_hibernate/src/main/webapp/WEB-INF/view/admin/userInfo.jsp">
-<persistable path="/springmvc_spring_hibernate/src/main/webapp/WEB-INF/view/admin/userInfo.jsp"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LoginController.java" tooltip="CSystem/src/com/cb/csystem/controller/LoginController.java">
 <persistable path="/CSystem/src/com/cb/csystem/controller/LoginController.java"/>
@@ -633,12 +629,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IUserInfoDao.java" tooltip="springmvc_spring_hibernate/src/main/java/com/zmj/dao/IUserInfoDao.java">
 <persistable path="/springmvc_spring_hibernate/src/main/java/com/zmj/dao/IUserInfoDao.java"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="HibernateTemplate.class" tooltip="org.springframework.orm.hibernate4.HibernateTemplate">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=springmvc_spring_hibernate/C:\/Users\/Administrator\/.m2\/repository\/org\/springframework\/spring-orm\/4.1.1.RELEASE\/spring-orm-4.1.1.RELEASE.jar&lt;org.springframework.orm.hibernate4(HibernateTemplate.class"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UserInfoController.java" tooltip="springmvc_spring_hibernate/src/main/java/com/zmj/controller/UserInfoController.java">
-<persistable path="/springmvc_spring_hibernate/src/main/java/com/zmj/controller/UserInfoController.java"/>
 </file>
 </mruList>
 </workbench>

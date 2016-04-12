@@ -14,7 +14,7 @@ import com.zmj.model.UserInfo;
 @Transactional(readOnly=false)
 public class UserInfoService implements IUserInfoService {
 	@Autowired private IUserInfoDao userInfoDao; 
-	public boolean userRegiste(UserInfo userInfo) {
+	public boolean userSave(UserInfo userInfo) {
 		 userInfoDao.save(userInfo);  
 	     return false;  
 	}

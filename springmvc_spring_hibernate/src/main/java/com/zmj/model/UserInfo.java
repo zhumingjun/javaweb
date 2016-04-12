@@ -7,11 +7,14 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import org.hibernate.annotations.GenericGenerator;
+
 @Entity
 @Table(name="userinfo")
 public class UserInfo {
-	private int id;
+	private String id;
 	private String username;
+	private String password;
 	private int age;
 	private String sex;
 	private String email;
@@ -21,11 +24,12 @@ public class UserInfo {
 	public UserInfo() {
 		super();
 	}
-	public UserInfo(int id, String username, int age, String sex, String email,
+	public UserInfo(String id, String username, String password,int age, String sex, String email,
 			String phone, String address) {
 		super();
 		this.id = id;
 		this.username = username;
+		this.password=password;
 		this.age = age;
 		this.sex = sex;
 		this.email = email;
@@ -33,10 +37,12 @@ public class UserInfo {
 		this.address = address;
 	}
 	@Id
-	public int getId() {
+	@GeneratedValue(generator="system-uuid")
+	@GenericGenerator(name = "system-uuid",strategy="uuid")
+	public String getId() {
 		return id;
 	}
-	public void setId(int id) {
+	public void setId(String id) {
 		this.id = id;
 	}
 	@Column(name = "username", nullable = false, length = 100)
@@ -46,35 +52,42 @@ public class UserInfo {
 	public void setUsername(String username) {
 		this.username = username;
 	}
-	@Column(name = "age", nullable = false, length = 100)
+	@Column(name = "password", nullable = false, length = 100)
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	@Column(name = "age", nullable = true, length = 100)
 	public int getAge() {
 		return age;
 	}
 	public void setAge(int age) {
 		this.age = age;
 	}
-	@Column(name = "sex", nullable = false, length = 100)
+	@Column(name = "sex", nullable = true, length = 100)
 	public String getSex() {
 		return sex;
 	}
 	public void setSex(String sex) {
 		this.sex = sex;
 	}
-	@Column(name = "email", nullable = false, length = 100)
+	@Column(name = "email", nullable = true, length = 100)
 	public String getEmail() {
 		return email;
 	}
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	@Column(name = "phone", nullable = false, length = 100)
+	@Column(name = "phone", nullable = true, length = 100)
 	public String getPhone() {
 		return phone;
 	}
 	public void setPhone(String phone) {
 		this.phone = phone;
 	}
-	@Column(name = "address", nullable = false, length = 100)
+	@Column(name = "address", nullable = true, length = 100)
 	public String getAddress() {
 		return address;
 	}
